@@ -1,9 +1,10 @@
 #!/bin/bash
 
-Person1=$1
-Person2=$2
+echo "please enter username:"
+read USERNAME
 
-echo "$Person1: Hello $Person2, how are you?"
-echo "$Person2: Hi $Person1, im fine. how are you?"
-echo "$Person1: How is work going on?"
-echo "$Person1: Not bad. im thinking to change my domain to devops"
+echo "please enter password:"
+read PASSWORD
+
+echo "username is: $USERNAME, password is: $PASSWORD"
+
