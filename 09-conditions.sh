@@ -9,3 +9,5 @@ then
 else
     echo "you are super users."
 fi
+
+dnf install mysql -y
