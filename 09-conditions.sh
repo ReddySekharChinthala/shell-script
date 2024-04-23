@@ -1,33 +1,12 @@
 #!/bin/bash
 
-USERID=$(id -u)
+NUMBER=$1
 
-if [ $USERID -ne 0 ]
+if [ $NUMBER -gt 10 ]
 then 
-    echo "please run this script with root access."
-    exit 1 # manually exit if error comes.
+    echo "Given number $NUMBER is greater than 10"
 else
-    echo "you are super users."
+    echo "Given number $NUMBER is less than 10"
 fi
 
-dnf install mysql -y
-
-if [ $? -ne 0 ]
-then
-    echo "installation of mysql--failure"
-    exit 1
-else
-    echo "installation of mysql--success"
-fi
-
-dnf install git -y
-
-if [ $? -ne 0 ]
-then
-    echo "installation of git--failure"
-    exit 1
-else
-    echo "installation of git--success"
-fi
-
-echo "is script proceeding?"
+#-gt, -lt, -eq, -ge, -le
