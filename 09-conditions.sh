@@ -1,12 +1,9 @@
 #!/bin/bash
 
-NUMBER=$1
+USERID=$(id -u)
 
-if [ $NUMBER -gt 10 ]
-then
-    echo "Given number $NUMBER is greater than 10"
-else
-    echo "Given number $NUMBER is less than 10"
+if [ $USERID -ne 0 ]
+then 
+    echo "please run this script with root access"
+
 fi
-
-#-gt, -lt, -eq, -ge, -le
