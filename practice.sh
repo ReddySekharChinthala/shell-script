@@ -1,10 +1,5 @@
 #!/bin/bash
 
-echo "please enter username:"
-read -s USERNAME
+movies=("RRR" "DJTillu" "Murari")
 
-echo "please enter password:"
-read -s PASSWORD
-
-echo "username is: $USERNAME, password is: $PASSWORD"
-
+echo "first movie is:{movies[0]}"
