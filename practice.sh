@@ -2,6 +2,11 @@
 
 USERNAME=$(id -u)
 
+VALIDATE(){
+    echo "Exit status: $1"
+    echo "What are you doing: $2"
+}
+
 if [ $USERNAME -ne 0]
 then
     echo "please use the root access"
@@ -11,21 +16,9 @@ else
 fi
 
 dnf install mysql -y
+VALIDATE $? "Installation...Mysql"
 
-if [ $? -ne 0 ]
-then
-    echo "Installation mysql...Failure"
-    exit 1
-else
-    echo "Installation mysql success"
-fi
 
 dnf install mysql -y
+VALIDATE $? "Installation...git"
 
-if [ $? -ne 0 ]
-then
-    echo "Installation git...Failure"
-    exit 1
-else
-    echo "Installation git...success"
-fi
