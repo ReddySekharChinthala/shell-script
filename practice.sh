@@ -19,3 +19,13 @@ then
 else
     echo "Installation mysql success"
 fi
+
+dnf installation mysql -y
+
+if [ $? -ne 0 ]
+then
+    echo "Installation git...Failure"
+    exit 1
+else
+    echo "Installation git...success"
+fi
