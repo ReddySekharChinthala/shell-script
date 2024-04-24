@@ -1,11 +1,11 @@
 #!/bin/bash
 
-movies=("RRR" "DJTillu" "Murari")
+USERNAME=$(id -u)
 
-echo "first movie is: ${movies[0]}"
-
-echo "first movie is: ${movies[1]}"
-
-echo "first movie is: ${movies[2]}"
-
-echo "first movie is: ${movies[@]}"
+if [ $USERNAME -ne 0 ]
+then 
+    echo "please use the root access"
+    exit 1
+else
+    echo "your a super user"
+fi
