@@ -20,7 +20,7 @@ else
     echo "Installation mysql success"
 fi
 
-dnf installation mysql -y
+dnf install mysql -y
 
 if [ $? -ne 0 ]
 then
