@@ -8,8 +8,8 @@ echo $Person2:: "Iam good $Person1, what about you?"
 
 echo "print your username:"
 
-read "USERNAME"
+read -s "USERNAME"
 
 echo "print the password:"
 
-read "PASSWORD"
+read -s "PASSWORD"
