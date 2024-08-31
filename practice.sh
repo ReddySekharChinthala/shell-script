@@ -1,15 +1,7 @@
 #!/bin/bash
 
-Person1=$1
-Person2=$2
+MOVIES=("RRR" "DJTillul" "Murari")
 
-echo $Person1:: "Hi, $Person2 HOw are you?"
-echo $Person2:: "Iam good $Person1, what about you?"
-
-echo "print your username:"
-
-read -s "USERNAME"
-
-echo "print the password:"
-
-read -s "PASSWORD"
+echo "first movie name is: ${MOVIES[0]}"
+echo "second movie name is: ${MOVIES[2]}"
+echo "third movie name is: ${MOVIES[3]}
