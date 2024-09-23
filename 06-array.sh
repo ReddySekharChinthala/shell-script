@@ -2,6 +2,6 @@
 
 MOVIES=("RRR" "DJTillu" "F8")
 
-echo "First movie name is: ${0}"
-echo "First movie name is: ${1}"
-echo "First movie name is: ${@}"
+echo "First movie name is: ${MOVIES[0]}"
+echo "First movie name is: ${MOVIES[1]}"
+echo "First movie name is: ${MOVIES[@]}"
