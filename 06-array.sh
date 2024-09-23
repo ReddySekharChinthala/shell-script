@@ -1,10 +1,7 @@
 #!/bin/bash
 
-MOVIES=("RRR" "DJTillu" "murari")
+MOVIES=("RRR" "DJTillu" "F8")
 
-# size of above array is 3
-# index are 0,1,2
-
-echo "first movie is: ${MOVIES[0]}"
-echo "first movie is: ${MOVIES[1]}"
-echo "first movie is: ${MOVIES[@]}"
+echo "First movie name is: ${0}"
+echo "First movie name is: ${1}"
+echo "First movie name is: ${@}"
