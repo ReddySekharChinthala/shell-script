@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo Reddy:: "Hi Sekhar, how are you"
-echo Sekhar:: "Hello Reddy, i am good. how are you?"
-echo Reddy:: "I am fine too. How is your work?"
-echo Sekhar:: "not bad. I am thinking to upgrade to DevOps"
+echo "Reddy: Hello Pavithra, how are you?"
+echo "Pavithra: Hi Reddy, iam good. How are you?"
+echo "Reddy: i'm fine. where your working?"
+echo "Pavithra: I'm working in ECW."
