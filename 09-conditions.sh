@@ -8,6 +8,5 @@ then
     echo "Print given number is greater 10"
 else
     echo "Print given number is less 10"
-else
-    echo "Print given number is equal 10"
+
 fi
