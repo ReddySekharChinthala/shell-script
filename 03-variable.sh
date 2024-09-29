@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # declearing variable
-Person1=Reddy #no spaces between person and =
-Person2=Pavithra
+Person1=$Reddy #no spaces between person and =
+Person2=$Pavithra
 
 #referring variable
 echo "$Person1:: Hi, $Person2. How are you?"
