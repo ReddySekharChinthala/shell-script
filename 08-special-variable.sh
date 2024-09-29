@@ -8,5 +8,5 @@ echo "current working home directory: $HOME"
 echo "current working user: $USER"
 echo "Hostname: $HOSTNAME"
 echo "process id of the shell script: $$"
-sleep 60 
+sleep 60 &
 echo "process id of background command: $!"
