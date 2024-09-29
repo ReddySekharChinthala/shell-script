@@ -1,7 +1,8 @@
 #!/bin/bash
 
-MOVIES=("RRR" "DJTillu" "F8")
+Tools=("Shellscript" "Ansible" "Terraform" "Git" "Jenkins" "Docker" "Kubernetes")
 
-echo "First movie name is: ${MOVIES[0]}"
-echo "First movie name is: ${MOVIES[1]}"
-echo "First movie name is: ${MOVIES[@]}"
+#here the the size of arry is 7.
+#and index of arry is 0 to 6
+
+echo "Print the first Tool in DevOps:: ($Tool[0])
