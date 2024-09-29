@@ -2,10 +2,10 @@
 
 echo "Print username is: username"
 
-read "USERNAME"
+read -s "USERNAME"
 
 echo "Print password is: password"
 
-read "PASSWORD"
+read -s "PASSWORD"
 
 echo "Username is: $USERNAME, Password is: $PASSWORD"
