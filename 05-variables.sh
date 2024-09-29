@@ -8,4 +8,4 @@ echo "Print password is: password"
 
 read "PASSWORD"
 
-echo "Print the username, password"
+echo "Username is: $USERNAME, Password is: $PASSWORD"
