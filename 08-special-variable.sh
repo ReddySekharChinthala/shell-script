@@ -9,3 +9,4 @@ echo "current working user: $USER"
 echo "Hostname: $HOSTNAME"
 echo "process id of the shell script: $$"
 echo "process id of background command: $!"
+sleep 60 &
