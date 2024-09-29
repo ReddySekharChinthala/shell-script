@@ -1,3 +1,3 @@
 #!/bin/bash
 
-echo "Hello, iam learning DevOps"
+echo -e "\e[$32m Hello, iam learning DevOps" 
