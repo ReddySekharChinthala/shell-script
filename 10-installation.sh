@@ -10,11 +10,14 @@ else
     echo "your a super user"
 fi
 
-dnf install mysqll -y
+dnf install mysql -y
 
 if ( $? -eq 0 )
 then
     echo "Installation of mysql is.... failure."
+    exit 1
+else 
+    echo "Installation of mysql is.... SUCCESS."
 fi
 
 dnf install git -y
@@ -22,6 +25,9 @@ dnf install git -y
 if ( $? -eq 0 )
 then
     echo "Installation of git is.... failure."
+    exit 1
+else
+    echo "Installation of git is....SUCCESS"
 fi
 
 echo "Script is proceeding?"
