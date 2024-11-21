@@ -1,7 +1,6 @@
 #!/bin/bash
 
-echo "Reddy:: Hi, Pavithra. How are you?"
-echo "Pavithra:: Hi Reddy, i'm good. What about you?"
-echo "Reddy:: im fine. Where you are working?"
-echo "Pavithra:: Iam working in ECW as a TeamManager."
-echo "Reddy:: Good, Iam also working in IT and planning to switch as a DevOPs engineer." 
+echo "Reddy:: Hi Pavithra, how are you?"
+echo "Pavithra:: Hello Reddy, i'm fine how are you..?"
+echo "Reddy:: im also good. What you do for living..?"
+echo "Pavithra:: im doing a software job."
