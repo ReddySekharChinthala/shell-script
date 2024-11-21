@@ -1,12 +1,12 @@
 #!/bin/bash
 
-# declearing variable
-Person1=Reddy #no spaces between person and =
+# declaring Variable
+Person1=Reddy
 Person2=Pavithra
 
-#referring variable
-echo "$Person1:: Hi $Person2. How are you?"
-echo "$Person2:: Hi $Person1, i'm good. What about you?"
-echo "$Person1:: im fine. Where you are working?"
-echo "$Person2:: Iam working in ECW as a TeamManager."
-echo "$Person1:: Good, Iam also working in IT and planning to switch as a DevOPs engineer." 
+# reffering variable
+
+echo "$Person1:: Hi $Person2, how are you?"
+echo "$Person2:: Hello $Person1, i'm fine how are you..?"
+echo "$Person1:: im also good. What you do for living..?"
+echo "$Person2:: im doing a software job."
