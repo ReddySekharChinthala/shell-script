@@ -2,7 +2,7 @@
 
 USERID=$(id -u)
 
-validate(){
+VALIDATE(){
 if [ $1 -ne 0 ]
 then
     echo "$2 is.. Failure."
@@ -21,8 +21,8 @@ fi
 
 dnf install mysql -y
 
-Validate $? "Installing mysql"
+VALIDATE $? "Installing mysql"
 
 dnf install git -y
 
-Validate $? "Installing git"
+VALIDATE $? "Installing git"
