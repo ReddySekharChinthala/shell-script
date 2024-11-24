@@ -2,6 +2,7 @@
 
 USERID=$(id -u)
 
+validate() {
 if [ $USERID -ne 0 ]
 then
     echo "Please run this script with root access."
@@ -9,14 +10,11 @@ then
 else
     echo "You are super user."
 fi
+}
 
 dnf install mysql -y
+Validate $? "Installing mysql"
 
-if [ $? -ne 0 ]
-then
-    echo "Installation of mysql...FAILURE"
-    exit 1
-else
-    echo "Installation of mysql...SUCCESS"
-fi
+dnf install git -y
+Validate $? "Installing git"
  
