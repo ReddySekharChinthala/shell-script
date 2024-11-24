@@ -1,7 +1,9 @@
 #!/bin/bash
 
-Person1=$1
-Person2=$2
+echo "please enter username"
+read -s USERNAME
 
-echo "$Person1:: Hi $Person2, how are you..?"
-echo "$Person2:: Hello $Person1, iam good, how are you..?"
+echo "please enter password"
+read -s PASSWORD
+
+echo "USERNAME is: $USERNAME, PASSWORD is: $PASSWORD"
