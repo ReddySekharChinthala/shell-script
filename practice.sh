@@ -1,11 +1,11 @@
 #!/bin/bash
 
-number=$1
+dnf install mysql -y
 
-if [ $number -gt 20 ]
+if [ $? -ne 0 ]
 then
-    echo "Given number $number is greater than 20"
+    echo "INstallation of mysql is..Failure."
 else
-    echo "Gievn number $number is lessthan 20"
+    echo "INstallation of mysql is..Success."
 fi
  
