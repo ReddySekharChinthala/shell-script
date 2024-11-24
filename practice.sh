@@ -19,10 +19,8 @@ else
     echo "You are super user."
 fi
 
-
 dnf install mysql -y
 Validate $? "Installing mysql"
 
 dnf install git -y
 Validate $? "Installing git"
- 
