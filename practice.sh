@@ -14,7 +14,7 @@ VALIDATE(){
         echo "$2 is..$R Failure. $N"
         exit 1
     else
-    echo "$2 is..$G Success. $N"
+         echo "$2 is..$G Success. $N"
     fi
 }
 
