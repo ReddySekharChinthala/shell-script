@@ -1,7 +1,12 @@
 #!/bin/bash
 
-No1=$1
-No2=$2
+number=$1
 
-SUM=$(($No1+$No2))
-echo "Total of $No1 and $No2 is:: $SUM"
+if [$number -gt 20]
+then
+    echo "Given number $number is greater than 20"
+else
+    echo "Gievn number $number is lessthan 20"
+
+fi
+ 
