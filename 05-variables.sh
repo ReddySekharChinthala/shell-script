@@ -1,10 +1,10 @@
 #!/bin/bash
 
-echo "Print username is: username"
+echo "Print username is::"
 
 read -s "USERNAME"
 
-echo "Print password is: password"
+echo "Print password is::"
 
 read -s "PASSWORD"
 
