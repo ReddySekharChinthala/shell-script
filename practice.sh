@@ -83,7 +83,7 @@ dnf install -y mysqll
 
 VALIDATE $? "Installing MySQL"
 
-dnf install -y git
+dnf install -y gitt
 
 VALIDATE $? "Installing Git"
 
