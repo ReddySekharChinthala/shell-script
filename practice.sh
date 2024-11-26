@@ -65,7 +65,7 @@ VALIDATE(){
         echo "$2 is FAILURE."
     else
         echo "$1 is SUCCESS."
-}
+        }
 
 if [ $USERID -ne 0 ]
 then 
