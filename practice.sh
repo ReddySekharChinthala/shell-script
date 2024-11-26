@@ -48,11 +48,28 @@
 
 ##COnditions##
 
-Number=$1
+# Number=$1
 
-if [ $Number -gt 0 ]
+# if [ $Number -gt 0 ]
+# then 
+#     echo "given number is greater than 5"
+# else
+#     echo "given number is less than 5"
+# fi
+
+USERID=$(id -u)
+if [ $USERID ne 0 ]
 then 
-    echo "given number is greater than 5"
+    echo "Please run the script with root access."
 else
-    echo "given number is less than 5"
+    echo "Your super user."
+fi
+
+dnf install -y mysql
+
+if [ $? -ne 0 ]
+then 
+    echo "Installation is..Failure."
+else
+    echo "Installation is Success."
 fi
