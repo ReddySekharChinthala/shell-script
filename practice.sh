@@ -3,5 +3,8 @@
 #Hello World print
 echo "Hello, Myself ReddySekhar. iam a DevOps Engoneer."
 
-echo "Reddy:: Hi Pavithra, how are you..?"
-echo "Pavithra:: Hi Reddy, iam good. How are you..?"
+Person1=Reddy
+Person2=Pavithra
+
+echo "$Person1:: Hi $Person2, how are you..?"
+echo "$Person2:: Hi $Person1, iam good. How are you..?"
