@@ -22,8 +22,17 @@
 #echo "username is:: $USERNAME and password is:: $PASSWORD"
 
 ## Array's##
-Names=("Reddy" "Sekhar" "Pavithra")
+# Names=("Reddy" "Sekhar" "Pavithra")
 
-echo "First name is:: ${Names[0]}"
-echo "Second name is:: ${Names[1]}"
-echo "All name list is:: ${Names[@]}"
+# echo "First name is:: ${Names[0]}"
+# echo "Second name is:: ${Names[1]}"
+# echo "All name list is:: ${Names[@]}"
+
+##data types##
+
+no1=$1
+no2=$2
+
+SUM=$(($no1+$no2))
+echo "total no of $no1 and $no2" is:: $SUM"
+
