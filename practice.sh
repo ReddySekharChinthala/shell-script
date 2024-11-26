@@ -34,5 +34,4 @@ no1=$1
 no2=$2
 
 SUM=$(($no1+$no2))
-echo "total no of $no1 and $no2" is:: $SUM"
-
+echo "total no of $no1 and $no2 is:: $SUM"
