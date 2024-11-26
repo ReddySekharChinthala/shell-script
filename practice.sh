@@ -80,6 +80,10 @@ dnf install -y mysql
 
 VALIDATE $? "Installing MySQL"
 
+dnf install -y git
+
+VALIDATE $? "Installing Git"
+
 # if [ $? -ne 0 ]
 # then 
 #     echo "Installation is..Failure."
