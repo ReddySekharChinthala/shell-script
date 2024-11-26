@@ -14,7 +14,7 @@ echo "$Person2:: Hi $Person1, iam good. How are you..?"
 # For securing our details
 
 echo "please enter your username::"
-read -s "USERNAME"
+read "USERNAME"
 
 echo "Please enter your password::"
 read -s "PASSWORD"
