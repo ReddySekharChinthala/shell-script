@@ -38,8 +38,21 @@
 
 ##Special variable##
 
-echo "all variables:$@"
-echo "Number of variables passed:$#"
-echo "script name:$0"
-echo "current working directory::$PWD"
-echo "home directory of current user:$HOME"
+# echo "all variables:$@"
+# echo "Number of variables passed:$#"
+# echo "script name:$0"
+# echo "current working directory::$PWD"
+# echo "home directory of current user:$HOME"
+# echo "hostname:$HOSTNAME"
+# echo "process ID of the current shellscript: $$"
+
+##COnditions##
+
+Number is=$1
+
+if [ $Number gt 0 ]
+then 
+    echo "given number is greater than 5"
+else
+    echo "given number is less than 5"
+fi
