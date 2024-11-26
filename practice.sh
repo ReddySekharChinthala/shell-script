@@ -50,7 +50,7 @@
 
 Number=$1
 
-if [ $Number gt 0 ]
+if [ $Number -gt 0 ]
 then 
     echo "given number is greater than 5"
 else
