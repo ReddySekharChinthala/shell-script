@@ -30,8 +30,16 @@
 
 ##data types##
 
-no1=$1
-no2=$2
+# no1=$1
+# no2=$2
 
-SUM=$(($no1+$no2))
-echo "total no of $no1 and $no2 is:: $SUM"
+# SUM=$(($no1+$no2))
+# echo "total no of $no1 and $no2 is:: $SUM"
+
+##Special variable##
+
+echo "all variables:$@"
+# echo "Numbser of variables passed:$#"
+# echo "script name:$0"
+# echo "current working directory::$PWD"
+# echo "home directory of current user:$HOME"
