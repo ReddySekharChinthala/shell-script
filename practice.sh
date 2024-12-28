@@ -8,6 +8,6 @@ Substraction=$(($no1-$no2))
 
 echo "Total no. of $no1 and $no2 is::$SUM"
 
-echo "Total no. of $no1 and $no2 is::$SUbstraction"
+echo "Total no. of $no1 and $no2 is::$Substraction"
 
 
