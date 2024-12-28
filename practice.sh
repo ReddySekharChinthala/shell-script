@@ -1,13 +1,12 @@
 #!/bin/bash
 
-no1=$1
-no2=$2
+number=$1
 
-SUM=$(($no1+$no2))
-Substraction=$(($no1-$no2))
-
-echo "Total no. of $no1 and $no2 is::$SUM"
-
-echo "Total no. of $no1 and $no2 is::$Substraction"
+if [ $number -gt 0 ]
+then
+    echo "given number is greaterthn 5"
+else
+    echo "given number is lessthan 5"
+fi
 
 
