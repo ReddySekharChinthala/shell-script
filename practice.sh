@@ -2,9 +2,9 @@
 
 number=$1
 
-if [ $number -gt 0 ]
+if [ $number -gt 20 ]
 then
-    echo "given number is greaterthn 5"
+    echo "given number is greaterthan 5"
 else
     echo "given number is lessthan 5"
 fi
