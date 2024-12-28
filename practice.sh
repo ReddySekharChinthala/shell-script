@@ -1,6 +1,10 @@
 #!/bin/bash
+## Declaring Variable ##
+Person1=Reddy
+Person2=Pavithra
 
-echo "Reddy:: Hi, Pavithra, How are you.?"
-echo "Pavithra:: Hi Reddy, iam good. How about you..?"
-echo "Reddy:: Iam fine and What do you do for living..?"
-echo "Pavithra:: Iam working as software Engineer."
+## reffering variable ##
+echo "$Person1:: Hi, $Person2, How are you.?"
+echo "$Person2:: Hi $Person1, iam good. How about you..?"
+echo "$Person1:: Iam fine and What do you do for living..?"
+echo "$Person2:: Iam working as software Engineer."
