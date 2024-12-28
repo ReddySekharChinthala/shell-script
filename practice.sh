@@ -1,7 +1,7 @@
 #!/bin/bash
 ## Declaring Variable ##
-Person1=Reddy
-Person2=Pavithra
+Person1=$1
+Person2=$2
 
 ## reffering variable ##
 echo "$Person1:: Hi, $Person2, How are you.?"
