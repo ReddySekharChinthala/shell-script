@@ -1,12 +1,20 @@
 #!/bin/bash
 
-echo "print username is::"
+Tools=("Shell Script" "Ansible" "Terraform" "Jenkins" "GitHub" "Docker" "Kuberneties")
 
-read -s "USERNAME"
+echo "1st tool is:: ${Tools[0]}"
 
-echo "print password is::"
+echo "2nd tool is:: ${Tools[1]}"
 
-read -s "PASSWORD"
+echo "3rd tool is:: ${Tools[2]}"
 
-echo "username is::$USERNAME and password is::$PASSWORD"
+echo "4th tool is:: ${Tools[3]}"
+
+echo "5th tool is:: ${Tools[4]}"
+
+echo "6th tool is:: ${Tools[5]}"
+
+echo "7th tool is:: ${Tools[6]}"
+
+
 
