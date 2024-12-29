@@ -8,7 +8,7 @@ R="e\[31m"
 G="e\[32m"
 N="e\[0m"
 
-VALIDATION(){
+VALIDATE(){
     if [ $1 -ne 0 ]
     then
         echo -e "$2... $R is Failure $N"
@@ -28,7 +28,7 @@ else
 fi
 
 dnf install mysql -y &>>$LOGFILE
-VALIDATION $? "Installation of Mysql"
+VALIDATE $? "Installation of Mysql"
 
 dnf install git -y &>>$LOGFILE
-VALIDATION $? "Installation of git"
+VALIDATE $? "Installation of git"
