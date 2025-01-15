@@ -2,5 +2,5 @@
 
 COURSE="DevOps from other script"
 
-echo "After calling other script: $COURSE"
+echo "Variable value from other script: $COURSE"
 echo "PID of other script: $$"
