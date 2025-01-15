@@ -12,7 +12,7 @@ else
     echo "you are super user."
 fi
 
-dnf install mysqqqll -y
+dnf install mysqqql -y
 dnf install git -y
 
 echo "is script proceeding?"
