@@ -1,12 +1,14 @@
 #!/bin/bash
 
-# declaring Variable
-Person1=Reddy
-Person2=Pavithra
+#Top level declaring
 
-# reffering variable
+person1=Reddy
+person2=Pavithra
 
-echo "$Person1:: Hi $Person2, how are you?"
-echo "$Person2:: Hello $Person1, i'm fine how are you..?"
-echo "$Person1:: im also good. What you do for living..?"
-echo "$Person2:: im doing a software job."
+#reffering variables
+
+echo "$person1:: Hi, $person2. How are you?"
+echo "$person2:: Hello $person1, i'm good how are you."
+echo "$person1:: I'm doing doing good."
+echo "$person2:: How is your job? is everything good?"
+echo "$person1:: yes, but im planning to switch the domain" 
