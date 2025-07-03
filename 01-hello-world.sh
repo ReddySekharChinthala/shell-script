@@ -1,3 +1,3 @@
 #!/bin/bash
 
-Hello, iam learning AWS with DevOps
+echo "Hello, iam learning AWS with DevOps"
