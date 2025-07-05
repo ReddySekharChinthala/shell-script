@@ -2,6 +2,11 @@
 
 USERID=$(id -u)
 
+TIMESTAMP=$(date +%F-%H-%M-%S)
+
+
+echo "Script started at $TIMESTAMP"
+
 if [ $USERID -ne 0 ]
 then
     echo "Please run the script with root access.."
