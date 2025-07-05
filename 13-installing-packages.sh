@@ -12,6 +12,7 @@ Y="\e[33m"
 N="\e[0m"
 
 VALIDATE(){
+
     if [ $1 -ne 0 ]
     then
         echo -e "$2 is.... $R FAILING $N"
@@ -32,8 +33,8 @@ fi
 
 for i in $@
 do 
-    echo "package to install is $i"
-    dnf list installed package is $i &>>LOGFILE
+    echo "package to install: $i"
+    dnf list installed $i &>>LOGFILE
     if [ $? -eq 0 ]
     then
         echo -e "$i is already installed...$Y SKIPPING $N"
