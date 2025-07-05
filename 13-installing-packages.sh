@@ -30,7 +30,7 @@ else
     echo "You are a super user."
 fi
 
-for i is $@
+for i in $@
 do 
     echo "package to install is $i"
     dnf list installed package is $i &>>LOGFILE
