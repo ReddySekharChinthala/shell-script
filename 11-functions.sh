@@ -9,3 +9,5 @@ then
 else
     echo "Your a super user.."
 fi
+
+echo "hello"
