@@ -6,7 +6,7 @@ TIMESTAMP=$(date +%F-%H-%M-%S)
 SCRIPT_NAME=$(echo $0 | cut -d "." -f1)
 LOGFILE=/tmp/$SCRIPT_NAME-$TIMESTAMP.log
 
-echo "Script started at: $TIMESTAMP
+echo "Script started at: $TIMESTAMP"
 
 if [ $USERID -ne 0 ]
 then 
