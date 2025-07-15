@@ -7,11 +7,11 @@ LOGFILE=/tmp/$SCRIPT_NAME-$TIMESTAMP.log
 R="e\[31m"
 G="e\[32m"
 Y="e\[33m"
-N="e\[34m"
+N="e\[0m"
 
 if [ $USERID -ne 0 ]
 then
-    echo "Please run script with root access."
+    echo "Please run this script with root access."
     exit 1
 else
     echo "Your are super user."
@@ -23,18 +23,17 @@ Validate(){
         echo -e "$2 is $R failure $N"
         exit 1
     else
-        echo "$2 is $G SUCCESS $N"
+        echo -e "$2 is $G SUCCESS $N"
     fi
 }
 
 for i in $@
 do 
     echo "package to install: $i"
-    dnf list installed $i
+    dnf list installed $i &>>LOGFILE
     if [ $? -eq 0 ]
     then
         echo -e "$i package is already installed $Y SKIPPING $N"
-        exit 1
     else
         dnf install $i &>>LOGFILE
         Validate $? "Installation of $i"
