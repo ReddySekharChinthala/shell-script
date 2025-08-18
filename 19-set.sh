@@ -3,9 +3,9 @@
 set -e 
 
 failure(){
-    echo "failure occures at $1: Failure occured command is: $2"
+    echo "failure occures at line $1: Failure occured command is: $2"
 }
-trap 'failure ${LINENO} "BASH_COMMAND"' ERR
+trap 'failure ${LINENO} "${BASH_COMMAND}"' ERR
 
 USERID=$(id -u)
 
