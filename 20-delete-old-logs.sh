@@ -20,7 +20,8 @@ FILES=$(find $SOURCE_DIRECTORY -name "*.log" -mtime +14)
 while IFS= read -r line #internal filed separator to check each line in FILES and give to while
 do 
     echo "Deleting file: $line" #$line vise will delete the files
-
+    rm -rf $line 
+    
 done <<< $FILES
 
 
