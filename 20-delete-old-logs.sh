@@ -2,6 +2,11 @@
 
 SOURCE_DiRECTORY=/tmp/app-logs
 
+R="\e[31m"
+G="\e[32m"
+Y="\e[33m"
+N="\e[0m
+
 if [ -d $SOURCE_DiRECTORY ]
 then
     echo -e "$G Source directory is exist $N"
