@@ -8,4 +8,5 @@ echo "Current home directory: $HOME"
 echo "Current directory username: $USER"
 echo "hostname: $HOSTNAME"
 echo "Process ID of current shell-script: $$"
-sleep 60
+sleep 60 &
+echo "Process ID of last background command: $!"
