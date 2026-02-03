@@ -1,6 +1,6 @@
 #!/bin/bash
 
-TOOLS=("SHELL-Script", "Ansible", "Terraform")
+TOOLS=("SHELL-Script" "Ansible" "Terraform")
 
 echo "Scripting tool is: ${TOOLS[0]}"
 echo "Configuration tool is: ${TOOLS[1]}"
