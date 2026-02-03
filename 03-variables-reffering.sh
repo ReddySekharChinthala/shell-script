@@ -2,7 +2,7 @@
 
 #declaring variables
 Person1=Reddy
-Person1=Sekhar
+Person2=Sekhar
 
 #reffering variables
 echo "$Person1:: Hi $Person2, How are you?"
